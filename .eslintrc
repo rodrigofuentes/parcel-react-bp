@@ -1,11 +1,28 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react"],
-  "plugins": ["prettier", "react-hooks"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/errors"
+  ],
+  "plugins": ["prettier", "react", "react-hooks", "jsx-a11y", "import"],
   "parserOptions": {
     "ecmaVersion": 2020,
     "ecmaFeatures": {
       "impliedStrict": true,
       "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
     }
   },
   "rules": {
