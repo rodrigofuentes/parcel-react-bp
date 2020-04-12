@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo ran husky"
+      "pre-commit": "yarn lint"
     }
   }
 }
