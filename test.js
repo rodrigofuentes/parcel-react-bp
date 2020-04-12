@@ -3,7 +3,4 @@ count++
 
 console.log(count)
 
-let obj = {
-  key: 0,
-  key1: 2,
-}
+let obj = {key: 0, key1: 2}
