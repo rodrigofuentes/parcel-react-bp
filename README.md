@@ -1,1 +1,3 @@
-# minimal-eslint-prettier
+# Parcel React Boilerplate
+
+parcel v2
