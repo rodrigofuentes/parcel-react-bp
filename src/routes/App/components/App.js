@@ -1,6 +1,6 @@
 import React from 'react'
 // import smeeLogo from './smee_logo.svg'
-import logo from '../../../assets/smee_logo.svg'
+import logo from '../../../assets/svg/smee_logo.svg'
 import styles from '../styles/App.module.scss'
 
 export default function App() {
