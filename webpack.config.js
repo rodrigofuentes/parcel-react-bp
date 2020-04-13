@@ -13,7 +13,7 @@ module.exports = {
         use: [{loader: 'html-loader'}],
       },
       {
-        test: /\.css$/,
+        test: /\.s?(a|c)ss$/,
         use: [
           'style-loader',
           {
@@ -26,11 +26,8 @@ module.exports = {
               },
             },
           },
+          'sass-loader',
         ],
-      },
-      {
-        test: /\.s[ac]ss$/,
-        loader: 'sass-loader',
       },
     ],
   },

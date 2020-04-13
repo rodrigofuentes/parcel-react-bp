@@ -30,6 +30,7 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.0",
     "husky": "^4.2.5",
+    "node-sass": "^4.13.1",
     "prettier": "^2.0.4",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",
