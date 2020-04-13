@@ -5,4 +5,9 @@ import './styles/main.css'
 import Routes from './routes'
 
 const el = document.getElementById('app')
-ReactDOM.render(<Routes />, el)
+ReactDOM.render(
+  <React.StrictMode>
+    <Routes />
+  </React.StrictMode>,
+  el,
+)
