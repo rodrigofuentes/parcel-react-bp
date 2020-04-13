@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-function App() {
-  return <div>Hello from React!</div>
-}
+import './styles/main.css'
+import Routes from './routes'
 
 const el = document.getElementById('app')
-ReactDOM.render(<App />, el)
+ReactDOM.render(<Routes />, el)

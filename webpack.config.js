@@ -12,6 +12,26 @@ module.exports = {
         test: /\.html$/,
         use: [{loader: 'html-loader'}],
       },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+              importLoaders: 2,
+              modules: {
+                localIdentName: '[name]__[local]--[hash:base64:5]',
+              },
+            },
+          },
+        ],
+      },
+      {
+        test: /\.s[ac]ss$/,
+        loader: 'sass-loader',
+      },
     ],
   },
   plugins: [

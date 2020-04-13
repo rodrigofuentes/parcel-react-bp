@@ -9,6 +9,7 @@
   "plugins": ["prettier", "react", "react-hooks", "jsx-a11y", "import"],
   "parserOptions": {
     "ecmaVersion": 2020,
+    "sourceType": "module",
     "ecmaFeatures": {
       "impliedStrict": true,
       "jsx": true
@@ -33,14 +34,14 @@
     "no-return-assign": ["error", "except-parens"],
     "no-unused-vars": 1,
     "class-methods-use-this": "off", // three words: "componentDidMount" :)
-    "react/display-name": ["error", { "ignoreTranspilerName": false }],
+    "react/display-name": ["error", {"ignoreTranspilerName": false}],
     "react/forbid-component-props": "off",
     "react/forbid-elements": "off",
     "react/forbid-foreign-prop-types": "error",
     "react/forbid-prop-types": "off",
     "react/function-component-definition": "off",
     "react/jsx-boolean-value": "off",
-    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+    "react/jsx-filename-extension": ["error", {"extensions": [".js"]}],
     "react/jsx-fragments": "off",
     "react/jsx-handler-names": "off",
     "react/jsx-key": "error",
@@ -94,7 +95,7 @@
     "react/jsx-child-element-spacing": "warn",
     "react/jsx-curly-brace-presence": [
       "warn",
-      { "props": "never", "children": "ignore" }
+      {"props": "never", "children": "ignore"}
     ],
     "react/no-access-state-in-setstate": "error",
     "react/no-redundant-should-component-update": "error",
