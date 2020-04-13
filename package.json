@@ -8,9 +8,11 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "",
-    "start": "parcel src/index.js",
-    "build": "parcel build src/index.js",
-    "dist:clean": "rimraf ./dist/*"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "dist:clean": "rimraf ./dist/*",
+    "cache:clean": "rimraf ./.parcel-cache/*",
+    "parcel:clean": "yarn dist:clean && yarn cache:clean"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

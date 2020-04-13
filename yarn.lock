@@ -949,7 +949,7 @@
     chalk "^2.4.2"
     emphasize "^2.1.0"
 
-"@parcel/config-default@^2.0.0-alpha.3.1":
+"@parcel/config-default@2.0.0-nightly.214+52fd6741":
   version "2.0.0-nightly.214"
   resolved "https://registry.yarnpkg.com/@parcel/config-default/-/config-default-2.0.0-nightly.214.tgz#d1674713a165f1b0d39464770177ba439274aba3"
   integrity sha512-E/pIxgrGcDaZBu9DrvAIVFO3TucjOBMNFfhrSVjrzReUXNTtlNI6vcwPDxx+DajBVv4ck1mwlG6w9CrG2+tXtg==
@@ -995,7 +995,7 @@
     "@parcel/transformer-typescript-types" "2.0.0-nightly.214+52fd6741"
     "@parcel/transformer-yaml" "2.0.0-nightly.214+52fd6741"
 
-"@parcel/core@^2.0.0-alpha.3.2":
+"@parcel/core@2.0.0-nightly.212+52fd6741":
   version "2.0.0-nightly.212"
   resolved "https://registry.yarnpkg.com/@parcel/core/-/core-2.0.0-nightly.212.tgz#0a0e4bf8a1f249d32bfe39aa63d7ad0e915be42a"
   integrity sha512-gBvXA6W83T7locoAvCcf8tVOmd9krlmLQfxSuTVKElqTokY2me/rksB8IC2q9w/HrNhYYdpU/pEtL5NiEGghOg==
@@ -1035,7 +1035,7 @@
   resolved "https://registry.yarnpkg.com/@parcel/events/-/events-2.0.0-nightly.214.tgz#c5089d1ff4bf7d09801d40172bfeafec6f7bff2e"
   integrity sha512-+7l4ThUkAa5bWp5+761R1iEGGfeCWngJq+4EXAvekUnRBmoElfqitsK87D7RKIbl502CeC0D0kOEMnNs/rYsTg==
 
-"@parcel/fs@2.0.0-nightly.214+52fd6741", "@parcel/fs@^2.0.0-alpha.3.1":
+"@parcel/fs@2.0.0-nightly.214+52fd6741":
   version "2.0.0-nightly.214"
   resolved "https://registry.yarnpkg.com/@parcel/fs/-/fs-2.0.0-nightly.214.tgz#588ebd2c3d6dd739c57309ba2d68cdebd2d1ba95"
   integrity sha512-5ZvzY8GGneKR/GjuK/JmXna48SdtypJBcLoQZrcglO9PmuyFFhUYar9qWa4d9OgqGO2C0VDGHb5H7vhyXAOvNQ==
@@ -1048,7 +1048,7 @@
     nullthrows "^1.1.1"
     rimraf "^2.6.2"
 
-"@parcel/logger@2.0.0-nightly.214+52fd6741", "@parcel/logger@^2.0.0-alpha.3.1":
+"@parcel/logger@2.0.0-nightly.214+52fd6741":
   version "2.0.0-nightly.214"
   resolved "https://registry.yarnpkg.com/@parcel/logger/-/logger-2.0.0-nightly.214.tgz#9bcb58e94537e1a7afdcd79ea7e248eb90c7ed01"
   integrity sha512-RxKLvRa9qe2M7fMZLK5HkPujpgqbijW0ptNNcyh2bl+n7ehnoBucfhuQkfPrWCW19ELAiVSt38Sf11oazFPUXw==
@@ -1153,7 +1153,7 @@
     nullthrows "^1.1.1"
     terser "^4.3.0"
 
-"@parcel/package-manager@2.0.0-nightly.214+52fd6741", "@parcel/package-manager@^2.0.0-alpha.3.1":
+"@parcel/package-manager@2.0.0-nightly.214+52fd6741":
   version "2.0.0-nightly.214"
   resolved "https://registry.yarnpkg.com/@parcel/package-manager/-/package-manager-2.0.0-nightly.214.tgz#a911286336b737502dead5778f606893c1ba4603"
   integrity sha512-1qVV4JBfbHUROEA6YhJAHFIUIb5ES+9+/0qkEq+aYEhNqICTp2EdtbZwmr+IhlI2UBe1psVbp2BhfOjtkKOuIQ==
@@ -2133,15 +2133,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001038:
   version "1.0.30001041"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001041.tgz#c2ea138dafc6fe03877921ddcddd4a02a14daf76"
   integrity sha512-fqDtRCApddNrQuBxBS7kEiSGdBsgO4wiVw4G/IClfqzfhW45MbTumfN4cuUJGTM0YGFNn97DCXPJ683PS6zwvA==
-
-caniuse-lite@^1.0.30001038:
-  version "1.0.30001040"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001040.tgz#103fc8e6eb1d7397e95134cd0e996743353d58ea"
-  integrity sha512-Ep0tEPeI5wCvmJNrXjE3etgfI+lkl1fTDU6Y3ZH1mhrjkPlVI9W4pcKbMo+BQLpEWKVYYp2EmYaRsqpPC3k7lQ==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -3124,9 +3119,9 @@ eslint-plugin-jsx-a11y@^6.2.3:
     jsx-ast-utils "^2.2.1"
 
 eslint-plugin-prettier@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.2.tgz#432e5a667666ab84ce72f945c72f77d996a5c9ba"
-  integrity sha512-GlolCC9y3XZfv3RQfwGew7NnuFDKsfI4lbvRK+PIIo23SFH+LemGs4cKwzAaRa+Mdb+lQO/STaIayno8T5sJJA==
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.3.tgz#ae116a0fc0e598fdae48743a4430903de5b4e6ca"
+  integrity sha512-+HG5jmu/dN3ZV3T6eCD7a4BlAySdN7mLIbJYo0z1cFQuI+r2DiTJEFeF68ots93PsnrMxbzIZ2S/ieX+mkrBeQ==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -5025,15 +5020,17 @@ pako@~1.0.5:
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
 parcel@^2.0.0-alpha.3.2:
-  version "2.0.0-alpha.3.2"
-  resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.0.0-alpha.3.2.tgz#d59de34f491608197d4f9e40688545d62aada08e"
-  integrity sha512-FG8JZtY2MAhxYANtLUlRbPNhTqtDB6zDQ+GVPBgzs6xlzyWSEdzayJ2a25Nnee+SBptV9nSHavkMrtP3YLrnAg==
+  version "2.0.0-nightly.212"
+  resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.0.0-nightly.212.tgz#d7e20f8d57442e252766dc9fbe36499ceabf0d9d"
+  integrity sha512-1H+RwiBYJG8VDrOwPNqcgMxKgWvaUUUvN3nDd53UbKUGibGxAXBJI13cSwOUBl8pEa85qthxuXD5gC6HHggsPA==
   dependencies:
-    "@parcel/config-default" "^2.0.0-alpha.3.1"
-    "@parcel/core" "^2.0.0-alpha.3.2"
-    "@parcel/fs" "^2.0.0-alpha.3.1"
-    "@parcel/logger" "^2.0.0-alpha.3.1"
-    "@parcel/package-manager" "^2.0.0-alpha.3.1"
+    "@parcel/config-default" "2.0.0-nightly.214+52fd6741"
+    "@parcel/core" "2.0.0-nightly.212+52fd6741"
+    "@parcel/diagnostic" "2.0.0-nightly.214+52fd6741"
+    "@parcel/fs" "2.0.0-nightly.214+52fd6741"
+    "@parcel/logger" "2.0.0-nightly.214+52fd6741"
+    "@parcel/package-manager" "2.0.0-nightly.214+52fd6741"
+    "@parcel/utils" "2.0.0-nightly.214+52fd6741"
     chalk "^2.1.0"
     commander "^2.19.0"
     get-port "^4.2.0"
