@@ -1,14 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import logo from '../../../assets/svg/smee_logo.svg'
+import smee from '../../../assets/svg/smee_logo.svg'
+import logo from '../../../assets/parcel.png'
 import styles from '../styles/App.module.scss'
 
 export default function App({title}) {
   return (
     <div>
-      <img src={logo} alt="smee logo" style={{width: '300px'}} />
-      <h1 className={styles.title}>{title}</h1>
+      <img src={smee} alt="smee logo" style={{width: '300px'}} />
+      <h1 className={styles.title}>
+        <img src={logo} alt="parcel logo" />
+        {title}
+      </h1>
     </div>
   )
 }
