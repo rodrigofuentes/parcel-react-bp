@@ -10,13 +10,17 @@ export default function App({title}) {
     <div>
       <img src={smee} alt="smee logo" style={{width: '300px'}} />
       <h1 className={styles.title}>
+        {title} and Parcel 📦
         <img src={logo} alt="parcel logo" />
-        {title}
       </h1>
     </div>
   )
 }
 
+App.defaultProps = {
+  title: 'Hello from React!',
+}
+
 App.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 }

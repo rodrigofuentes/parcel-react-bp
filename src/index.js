@@ -7,7 +7,7 @@ import Routes from './routes'
 const el = document.getElementById('app')
 ReactDOM.render(
   <React.StrictMode>
-    <Routes title="Hello from React!!!" />
+    <Routes />
   </React.StrictMode>,
   el,
 )
