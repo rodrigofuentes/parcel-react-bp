@@ -5,9 +5,9 @@ module.exports = {
     '@babel/preset-react',
     ['@babel/preset-env', {modules: isTest ? 'commonjs' : false}],
   ],
-  // plugins: [
-  //   'syntax-dynamic-import',
-  //   'transform-class-propertices',
-  //   'transform-object-rest-spread',
-  // ],
+  plugins: [
+    '@babel/plugin-syntax-dynamic-import',
+    '@babel/plugin-proposal-class-properties',
+    //   'transform-object-rest-spread',
+  ],
 }
