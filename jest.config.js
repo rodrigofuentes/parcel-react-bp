@@ -7,4 +7,7 @@ module.exports = {
     '\\.(scss|css)$': require.resolve('./__mocks__/styleMock.js'),
   },
   setupFilesAfterEnv: ['./setupTests.js'],
+  // setupTestFrameworkScriptFile: require.resolve(
+  //   './__mocks__/setupTestFramework',
+  // ),
 }
