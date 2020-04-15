@@ -6,8 +6,9 @@ module.exports = {
     ['@babel/preset-env', {modules: isTest ? 'commonjs' : false}],
   ],
   plugins: [
-    '@babel/plugin-syntax-dynamic-import',
+    '@babel/plugin-syntax-dynamic-import', // react-loadable
     '@babel/plugin-proposal-class-properties',
-    //   'transform-object-rest-spread',
-  ],
+    '@babel/plugin-proposal-object-rest-spread',
+    isTest ? 'dynamic-import-node' : null,
+  ].filter(Boolean),
 }
