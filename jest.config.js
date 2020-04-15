@@ -7,7 +7,14 @@ module.exports = {
     '\\.(scss|css)$': require.resolve('./__mocks__/styleMock.js'),
   },
   setupFilesAfterEnv: ['./setupTests.js'],
-  // setupTestFrameworkScriptFile: require.resolve(
-  //   './__mocks__/setupTestFramework',
-  // ),
+  // coverage whitelist version:
+  collectCoverageFrom: ['**/src/**/*.js'],
+  coverageThreshold: {
+    global: {
+      statements: 80,
+      branches: 80,
+      functions: 80,
+      lines: 80,
+    },
+  },
 }
